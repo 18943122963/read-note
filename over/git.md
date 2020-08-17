@@ -16,7 +16,7 @@
 > 2. 若需要从远程特定分支 clone，需要执行 `git clone [地址] -b [分支名]`
 > 3. 若不需要，则跳过上面两步
 > 4. 链接远程 `git remote add origin [地址]`
-> 5. 为 push/pull 设定上游（追踪远程分支） `git push --set-upstream origin [分支名（默认master）]`
+> 5. 为 push 设定上游（追踪远程分支） `git push --set-upstream origin [分支名]`
 
 ## 2. 项目中的基本使用
 
@@ -45,7 +45,8 @@
 > 4. 创建新分支，`git branch [分支]`
 > 5. 切换分支，`git checkout [分支名]`
 > 6. 创建并切换分支，`git checkout -b [分支名]` 
-> 5. 合并到当前分支，`git merge [目标分支]`
+> 7. 合并到当前分支，`git merge [目标分支]`
+> 8. 将本地分支推送到远程，`git push origin [本地分支名]`
 
 # git 更方便的工具
 
