@@ -16,7 +16,7 @@
 
 # 迭代器
 
-# promise
+# promise/async/await
 
 # Generator
 
