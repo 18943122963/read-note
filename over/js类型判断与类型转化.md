@@ -29,11 +29,11 @@
     >  可以识别 `Infinity`
     >  字符串为空或者为空字符串时，返回 0
     >  使用`parseInt()`进行转化时，直接从开头开始截取能识别的字符串，直到不能识别为止
-    >  `Object`在下方单独说明
 
 > - `boolean`中，`false`返回`0`，`true`返回`1`
 > - `null`返回`0`
 > - `undefined`返回`NaN`
+> - `Object`在下方单独说明
 
 ### 转化为`String`型
 
