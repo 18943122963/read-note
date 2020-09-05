@@ -76,4 +76,5 @@
 
 > - `===/!==`时，不进行转化
 > - `!`时，转化为`boolean`型
+> - `==`时 null 和 undefinde 相等，NaN 和任意比较都是 false
 > - 其他情况，均转为`Number`型
